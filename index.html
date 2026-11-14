@@ -1,221 +1,90 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elreec | Portfolio & Tech Support</title>
-    <!-- استدعاء خط Cairo من Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --bg-color: #0f172a;
-            --card-bg: #1e293b;
-            --text-main: #f8fafc;
-            --text-muted: #94a3b8;
-            --accent: #38bdf8;
-            --accent-hover: #0ea5e9;
-            --border: #334155;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Cairo', sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-main);
-            line-height: 1.6;
-            padding: 20px;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 40px auto;
-            background: var(--card-bg);
-            border: 1px solid var(--border);
-            border-radius: 16px;
-            padding: 40px;
-            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
-        }
-
-        header {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-
-        .avatar {
-            width: 100px;
-            height: 100px;
-            background: linear-gradient(135deg, var(--accent), #6366f1);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 36px;
-            font-weight: 700;
-            color: #fff;
-            margin: 0 auto 20px;
-            box-shadow: 0 0 20px rgba(56, 189, 248, 0.3);
-        }
-
-        h1 {
-            font-size: 28px;
-            margin-bottom: 8px;
-        }
-
-        .tagline {
-            color: var(--accent);
-            font-size: 16px;
-            font-weight: 600;
-        }
-
-        section {
-            margin-bottom: 30px;
-        }
-
-        h2 {
-            font-size: 20px;
-            color: var(--accent);
-            margin-bottom: 15px;
-            border-bottom: 2px solid var(--border);
-            padding-bottom: 5px;
-        }
-
-        p {
-            color: var(--text-muted);
-            margin-bottom: 10px;
-            font-size: 15px;
-        }
-
-        .skills-grid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            margin-top: 10px;
-        }
-
-        .skill-tag {
-            background: rgba(56, 189, 248, 0.1);
-            color: var(--accent);
-            border: 1px solid rgba(56, 189, 248, 0.2);
-            padding: 6px 14px;
-            border-radius: 20px;
-            font-size: 14px;
-            font-weight: 600;
-        }
-
-        .projects-list {
-            display: grid;
-            gap: 15px;
-        }
-
-        .project-card {
-            background: rgba(15, 23, 42, 0.5);
-            border: 1px solid var(--border);
-            padding: 15px 20px;
-            border-radius: 10px;
-            transition: transform 0.2s, border-color 0.2s;
-        }
-
-        .project-card:hover {
-            transform: translateY(-3px);
-            border-color: var(--accent);
-        }
-
-        .project-title {
-            font-weight: 700;
-            color: var(--text-main);
-            margin-bottom: 5px;
-        }
-
-        .contact-box {
-            text-align: center;
-            margin-top: 40px;
-        }
-
-        .btn {
-            display: inline-block;
-            background: var(--accent);
-            color: var(--bg-color);
-            padding: 12px 30px;
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: 700;
-            transition: background 0.2s, transform 0.2s;
-        }
-
-        .btn:hover {
-            background: var(--accent-hover);
-            transform: scale(1.05);
-        }
-
-        footer {
-            text-align: center;
-            margin-top: 40px;
-            color: var(--text-muted);
-            font-size: 13px;
-            border-top: 1px solid var(--border);
-            padding-top: 20px;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#090b12">
+<meta name="description" content="Elreec — Software Developer & Technical Specialist building web platforms, Android apps and AI-powered workflows.">
+<title>Elreec — Developer Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#090b12;--panel:#101521;--panel2:#131b2a;--text:#f3f6ff;--muted:#98a3b8;--line:rgba(164,180,210,.14);--blue:#6c8cff;--cyan:#62e5e0;--purple:#a78bfa;--max:1160px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Manrope,system-ui,sans-serif;line-height:1.65;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;background:radial-gradient(ellipse at 78% 8%,rgba(74,102,220,.16),transparent 32%),radial-gradient(ellipse at 8% 45%,rgba(99,229,224,.07),transparent 30%),linear-gradient(rgba(255,255,255,.018) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.018) 1px,transparent 1px);background-size:auto,auto,48px 48px,48px 48px}
+a{color:inherit;text-decoration:none}.wrap{width:min(var(--max),calc(100% - 48px));margin:auto}.mono{font-family:"DM Mono",monospace}.accent{color:var(--cyan)}.gradient{background:linear-gradient(100deg,#fff 5%,#9eb3ff 48%,#6de8df 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+header{height:82px;display:flex;align-items:center;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20;background:rgba(9,11,18,.78);backdrop-filter:blur(18px)}
+.nav{display:flex;align-items:center;justify-content:space-between}.brand{font-size:21px;font-weight:800;letter-spacing:-1px}.brand i{font-style:normal;color:var(--cyan)}.navlinks{display:flex;gap:30px;color:var(--muted);font-size:13px;font-weight:700}.navlinks a:hover{color:white}.nav-cta,.button{display:inline-flex;align-items:center;gap:10px;border:1px solid rgba(98,229,224,.45);border-radius:9px;padding:11px 16px;font-size:12px;font-weight:800;letter-spacing:.02em;transition:.25s}.nav-cta:hover,.button.primary:hover{transform:translateY(-3px);box-shadow:0 10px 35px rgba(98,229,224,.13)}.nav-cta span{color:var(--cyan)}
+.hero{padding:112px 0 94px;display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:70px;min-height:620px}.eyebrow{font:11px "DM Mono",monospace;color:var(--cyan);letter-spacing:.18em;text-transform:uppercase;display:flex;align-items:center;gap:12px}.eyebrow:before{content:"";width:28px;height:1px;background:var(--cyan)}h1{font-size:clamp(48px,7vw,82px);line-height:1.06;letter-spacing:-.075em;margin:23px 0 22px;font-weight:800}.hero p{max-width:590px;color:var(--muted);font-size:16px;line-height:1.9}.actions{display:flex;gap:13px;flex-wrap:wrap;margin-top:34px}.button{padding:14px 19px;border-color:var(--line);color:#e9efff}.button.primary{background:linear-gradient(110deg,#6687ff,#5bdcd6);color:#071019;border:0}.button .arrow{font-size:16px}.hero-meta{display:flex;gap:25px;margin-top:48px;color:var(--muted);font:10px "DM Mono",monospace;letter-spacing:.08em;text-transform:uppercase}.hero-meta span:before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--cyan);margin:0 9px 1px 0;box-shadow:0 0 12px var(--cyan)}
+.visual{position:relative;min-height:390px;display:grid;place-items:center}.orbit{position:absolute;width:340px;height:340px;border:1px solid rgba(108,140,255,.25);border-radius:50%;animation:spin 28s linear infinite}.orbit:before,.orbit:after{content:"";position:absolute;border:1px solid rgba(98,229,224,.17);border-radius:50%;inset:25px}.orbit:after{inset:55px;border-style:dashed}.core{width:220px;height:220px;border-radius:30px;background:linear-gradient(145deg,#1a2944,#111827 65%);border:1px solid rgba(150,175,255,.3);box-shadow:0 30px 100px rgba(51,83,190,.25),inset 0 1px rgba(255,255,255,.1);display:grid;place-items:center;transform:rotate(-7deg);position:relative}.core:before{content:"";position:absolute;inset:12px;border:1px solid rgba(98,229,224,.16);border-radius:22px}.core-mark{font-size:76px;font-weight:800;letter-spacing:-.12em;background:linear-gradient(140deg,#fff,#7ce5df);color:transparent;background-clip:text}.float{position:absolute;padding:10px 13px;background:#111a29;border:1px solid var(--line);border-radius:8px;font:10px "DM Mono",monospace;color:#c8d4ee;box-shadow:0 12px 35px #0008}.f1{top:44px;right:0}.f2{bottom:55px;left:-4px}.f3{right:2px;bottom:35px;color:var(--cyan)}.spark{position:absolute;width:7px;height:7px;border-radius:50%;background:var(--cyan);box-shadow:0 0 20px var(--cyan)}.s1{top:45px;left:80px}.s2{right:55px;top:145px;background:var(--purple)}
+section{padding:90px 0;border-top:1px solid var(--line)}.section-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:38px}.kicker{font:10px "DM Mono",monospace;color:var(--cyan);letter-spacing:.16em;text-transform:uppercase}.section-head h2{font-size:clamp(30px,4vw,44px);letter-spacing:-.06em;margin:9px 0 0}.section-head p{max-width:410px;color:var(--muted);font-size:13px;margin:0}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.about-card,.skill-card,.project-card,.contact-card{background:linear-gradient(145deg,rgba(20,29,45,.88),rgba(13,18,29,.9));border:1px solid var(--line);border-radius:15px}.about-card{padding:30px}.about-card h3{font-size:19px;margin:0 0 12px}.about-card p{font-size:14px;color:var(--muted);margin:0}.facts{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:22px}.fact{padding:15px;background:rgba(255,255,255,.025);border:1px solid var(--line);border-radius:9px}.fact b{display:block;font-size:13px}.fact small{color:var(--muted);font:10px "DM Mono",monospace}
+.skills{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.skill-card{padding:23px;min-height:190px}.skill-icon{width:38px;height:38px;border-radius:10px;background:rgba(108,140,255,.13);display:grid;place-items:center;color:var(--cyan);font-size:17px;margin-bottom:19px}.skill-card h3{font-size:14px;margin:0 0 10px}.skill-card p{font-size:12px;color:var(--muted);line-height:1.8;margin:0}
+.project-card{display:grid;grid-template-columns:1fr 1fr;overflow:hidden}.project-info{padding:38px}.project-label{font:10px "DM Mono",monospace;color:var(--cyan);letter-spacing:.14em;text-transform:uppercase}.project-info h3{font-size:30px;letter-spacing:-.05em;margin:12px 0}.project-info p{color:var(--muted);font-size:14px;line-height:1.9}.tags{display:flex;gap:8px;flex-wrap:wrap;margin:23px 0}.tag{font:10px "DM Mono",monospace;color:#b9c8e5;border:1px solid var(--line);padding:6px 9px;border-radius:5px}.project-link{color:var(--cyan);font-size:12px;font-weight:800}.project-art{min-height:350px;position:relative;display:grid;place-items:center;background:radial-gradient(circle at 50% 45%,rgba(94,116,236,.25),transparent 48%),linear-gradient(140deg,#141e36,#0b111d);overflow:hidden}.browser{width:78%;height:230px;border:1px solid rgba(151,174,255,.32);border-radius:12px;background:rgba(8,13,23,.86);box-shadow:0 25px 80px #0009;transform:rotate(-5deg);overflow:hidden}.browser-top{height:28px;border-bottom:1px solid var(--line);display:flex;align-items:center;padding:0 11px;gap:5px}.browser-top i{width:5px;height:5px;border-radius:50%;background:#64748b}.browser-body{padding:18px}.mock-title{height:9px;width:44%;border-radius:8px;background:#a6b7ed;margin:4px 0 17px}.mock-row{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.mock-book{height:108px;border-radius:6px;background:linear-gradient(145deg,#5d6fb6,#202b49);border:1px solid #8799d744}.mock-book:nth-child(2){background:linear-gradient(145deg,#8464a8,#302448)}.mock-book:nth-child(3){background:linear-gradient(145deg,#4b8b8c,#1a3b42)}.mock-line{height:5px;width:65%;background:#34425e;border-radius:5px;margin-top:10px}.project-orbit{position:absolute;width:340px;height:340px;border:1px dashed rgba(98,229,224,.2);border-radius:50%}
+.experience{display:grid;grid-template-columns:180px 1fr;gap:35px;padding:25px 0;border-bottom:1px solid var(--line)}.experience time{font:11px "DM Mono",monospace;color:var(--cyan)}.experience h3{margin:0 0 8px;font-size:17px}.experience p{margin:0;color:var(--muted);font-size:13px;max-width:720px}
+.contact-card{padding:40px;display:flex;justify-content:space-between;align-items:center;gap:30px}.contact-card h2{font-size:clamp(28px,4vw,42px);letter-spacing:-.06em;margin:8px 0}.contact-card p{color:var(--muted);font-size:13px;margin:0}.contact-actions{display:flex;flex-direction:column;gap:12px;min-width:220px}.contact-actions a{font-size:12px;color:#dfe8ff}.contact-actions a:hover{color:var(--cyan)}
+footer{padding:28px 0;color:#68758e;font:10px "DM Mono",monospace}.footer-inner{display:flex;justify-content:space-between;gap:20px}
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}.reveal.visible{opacity:1;transform:none}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media(max-width:850px){.hero{grid-template-columns:1fr;gap:25px;padding:80px 0 65px}.visual{min-height:330px}.orbit{width:290px;height:290px}.skills{grid-template-columns:repeat(2,1fr)}.project-card{grid-template-columns:1fr}.project-art{min-height:300px}.section-head{align-items:start;flex-direction:column}.navlinks{gap:15px}.about-grid{grid-template-columns:1fr}}
+@media(max-width:560px){.wrap{width:min(100% - 32px,var(--max))}header{height:68px}.navlinks{display:none}.nav-cta{padding:9px 11px}.hero{padding-top:68px}.hero p{font-size:14px}.hero-meta{gap:12px;flex-wrap:wrap;font-size:9px}.visual{min-height:290px}.orbit{width:255px;height:255px}.core{width:175px;height:175px}.core-mark{font-size:62px}.f1{right:-2px;top:25px}.f2{left:-2px;bottom:35px}.f3{right:0;bottom:20px}.skills{grid-template-columns:1fr 1fr;gap:9px}.skill-card{padding:16px;min-height:180px}.skill-card p{font-size:11px}.project-info{padding:25px}.project-art{min-height:260px}.experience{grid-template-columns:1fr;gap:8px}.contact-card{padding:26px;display:block}.contact-actions{margin-top:24px}.facts{grid-template-columns:1fr 1fr}section{padding:68px 0}.footer-inner{flex-direction:column}}
+</style>
 </head>
 <body>
-
-    <div class="container">
-        <!-- الهيدر والمعلومات الشخصية -->
-        <header>
-            <div class="avatar">E</div>
-            <h1>Elreec</h1>
-            <div class="tagline">Tech Support Specialist & Developer</div>
-        </header>
-
-        <!-- نبذة تعريفية -->
-        <section>
-            <h2>عني</h2>
-            <p>مختص في الدعم التقني، صيانة الأنظمة، حل المشكلات البرمجية، وتطوير الأدوات التقنية. شغوف بالتقنية، الأتمتة، وبرمجة الأنظمة باستخدام لغات متعددة.</p>
-        </section>
-
-        <!-- المهارات التقنية -->
-        <section>
-            <h2>المهارات والخبرات</h2>
-            <div class="skills-grid">
-                <span class="skill-tag">Python</span>
-                <span class="skill-tag">C++</span>
-                <span class="skill-tag">System Diagnostics</span>
-                <span class="skill-tag">Networking</span>
-                <span class="skill-tag">Automation</span>
-                <span class="skill-tag">Git & Linux</span>
-            </div>
-        </section>
-
-        <!-- المشاريع البارزة -->
-        <section>
-            <h2>أبرز المشاريع والأعمال</h2>
-            <div class="projects-list">
-                <div class="project-card">
-                    <div class="project-title">أدوات الأتمتة ومعالجة الأصول (Python)</div>
-                    <p>سكربتات مخصصة لمعالجة الملفات وتنظيم البيانات بفعالية عالية لتسريع سير العمل.</p>
-                </div>
-                <div class="project-card">
-                    <div class="project-title">إعداد وصيانة الشبكات والأنظمة</div>
-                    <p>تشخيص أعطال الهاردوير والتربولاشينج المتقدم لأنظمة التشغيل والشبكات المحلية.</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- قسم التواصل -->
-        <div class="contact-box">
-            <a href="mailto:yousefcodex993@gmail.com" class="btn">تواصل معي عبر البريد الإلكتروني</a>
-        </div>
-
-        <!-- حقوق النشر -->
-        <footer>
-            &copy; 2026 Elreec. All rights reserved.
-        </footer>
-    </div>
-
-</body>
-</html>
+<header><div class="wrap nav">
+  <a class="brand" href="#home">ELREEC<span><i>.</i></span></a>
+  <nav class="navlinks"><a href="#about">About</a><a href="#skills">Expertise</a><a href="#work">Projects</a><a href="#contact">Contact</a></nav>
+  <a class="nav-cta" href="mailto:yousefcodex993@gmail.com">LET'S TALK <span>↗</span></a>
+</div></header>
+<main>
+<div class="wrap hero" id="home">
+  <div class="reveal">
+    <div class="eyebrow">SOFTWARE DEVELOPER · MOROCCO</div>
+    <h1>Building ideas<br>into <span class="gradient">digital reality.</span></h1>
+    <p>I'm Elreec — a software developer and technical problem-solver focused on web platforms, Android applications, and AI-powered workflows. I turn complex ideas into practical, user-centered products.</p>
+    <div class="actions"><a class="button primary" href="#work">Explore my work <span class="arrow">↗</span></a><a class="button" href="mailto:yousefcodex993@gmail.com">Get in touch</a></div>
+    <div class="hero-meta"><span>Web & Cloud</span><span>Android</span><span>AI Integration</span></div>
+  </div>
+  <div class="visual reveal" aria-label="Abstract Elreec developer emblem">
+    <div class="orbit"></div><div class="core"><div class="core-mark">E.</div></div>
+    <div class="float f1">{"code": "clean & useful"}</div><div class="float f2">KOTLIN · JS · PYTHON</div><div class="float f3">● BUILD / CREATE</div><i class="spark s1"></i><i class="spark s2"></i>
+  </div>
+</div>
+<section id="about"><div class="wrap">
+  <div class="section-head reveal"><div><div class="kicker">01 / WHO I AM</div><h2>Engineering with <span class="gradient">purpose.</span></h2></div><p>Technical curiosity meets practical execution. I care about how things work — and how well they work for people.</p></div>
+  <div class="about-grid">
+    <article class="about-card reveal"><h3>Beyond writing code.</h3><p>Dedicated to building lightweight, reliable digital experiences — from multilingual reading platforms to mobile applications and automated workflows. My approach combines clean architecture, performance awareness, and a strong focus on the end user.</p></article>
+    <article class="about-card reveal"><h3>What drives my work.</h3><p>I enjoy solving real technical problems, connecting services, and making complex systems feel simple. Whether it's a responsive interface, an API workflow, or a system issue, I focus on finding a clear and effective solution.</p><div class="facts"><div class="fact"><b>Morocco</b><small>BASED IN</small></div><div class="fact"><b>Arabic / English</b><small>LANGUAGES</small></div></div></article>
+  </div>
+</div></section>
+<section id="skills"><div class="wrap">
+  <div class="section-head reveal"><div><div class="kicker">02 / TOOLKIT</div><h2>Technical <span class="gradient">expertise.</span></h2></div><p>A practical toolkit for building, integrating, optimizing, and maintaining digital products.</p></div>
+  <div class="skills">
+    <article class="skill-card reveal"><div class="skill-icon">⌘</div><h3>Web & Cloud</h3><p>HTML5, CSS3, JavaScript, Cloudflare Pages, Cloudflare Workers, Serverless APIs, Responsive RTL/LTR layouts.</p></article>
+    <article class="skill-card reveal"><div class="skill-icon">▣</div><h3>Mobile & Languages</h3><p>Android development with Kotlin and Jetpack Compose, Python, C++, scripting, and task automation.</p></article>
+    <article class="skill-card reveal"><div class="skill-icon">✳</div><h3>AI & Data Integration</h3><p>Google Gemini APIs, AI translation, text chunking, custom glossaries, caching, and API cost optimization.</p></article>
+    <article class="skill-card reveal"><div class="skill-icon">⌁</div><h3>Technical Support</h3><p>System troubleshooting, software configuration, file organization, debugging, and practical problem-solving.</p></article>
+  </div>
+</div></section>
+<section id="work"><div class="wrap">
+  <div class="section-head reveal"><div><div class="kicker">03 / SELECTED WORK</div><h2>Things I've <span class="gradient">built.</span></h2></div><p>A closer look at a product where engineering, reading, and language technology come together.</p></div>
+  <article class="project-card reveal">
+    <div class="project-info"><div class="project-label">FEATURED PROJECT · 01</div><h3>Hikaya<span class="accent">.</span></h3><p>A lightweight, multi-language novel platform designed for serialized reading. Hikaya separates interface language, original content language, and target translation language — with full right-to-left and left-to-right support.</p><p>Its AI-assisted translation workflow uses smart caching and novel-specific glossaries to preserve terminology consistency while reducing unnecessary API costs.</p><div class="tags"><span class="tag">CLOUDFLARE PAGES</span><span class="tag">GEMINI AI</span><span class="tag">MULTILINGUAL UX</span><span class="tag">RTL / LTR</span></div><a class="project-link" href="https://my-novels-2ok.pages.dev/" target="_blank" rel="noopener">VISIT LIVE PROJECT ↗</a></div>
+    <div class="project-art"><div class="project-orbit"></div><div class="browser"><div class="browser-top"><i></i><i></i><i></i></div><div class="browser-body"><div class="mock-title"></div><div class="mock-row"><div class="mock-book"></div><div class="mock-book"></div><div class="mock-book"></div></div><div class="mock-line"></div><div class="mock-line" style="width:42%"></div></div></div></div>
+  </article>
+</div></section>
+<section id="experience"><div class="wrap">
+  <div class="section-head reveal"><div><div class="kicker">04 / EXPERIENCE</div><h2>How I <span class="gradient">contribute.</span></h2></div><p>Hands-on product building, technical execution, and a mindset built around continuous learning.</p></div>
+  <div class="experience reveal"><time>FOUNDER · DEVELOPER</time><div><h3>Hikaya — Multi-Language Novel Platform</h3><p>Designed and deployed the web platform, architected its multilingual reading experience, and engineered an AI-assisted translation workflow with caching and custom glossaries.</p></div></div>
+  <div class="experience reveal"><time>CORE STRENGTH</time><div><h3>Technical problem-solving</h3><p>Practical troubleshooting, software configuration, debugging, and automation — with an emphasis on clear solutions and dependable results.</p></div></div>
+</div></section>
+<section id="contact"><div class="wrap"><div class="contact-card reveal"><div><div class="kicker">05 / HAVE A PROJECT?</div><h2>Let's build something <span class="gradient">meaningful.</span></h2><p>Have an idea, a challenge, or an opportunity? I'm open to connecting.</p></div><div class="contact-actions"><a class="button primary" href="mailto:yousefcodex993@gmail.com">✉ &nbsp; yousefcodex993@gmail.com</a><a href="https://my-novels-2ok.pages.dev/" target="_blank" rel="noopener">↗ &nbsp; Explore Hikaya</a><span style="color:var(--muted);font-size:11px">Morocco · Available for opportunities</span></div></div></div></section>
+</main>
+<footer><div class="wrap footer-inner"><span>© <span id="year"></span> ELREEC. CRAFTED WITH INTENTION.</span><span>SOFTWARE · WEB · ANDROID · AI</span></div></footer>
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+</script>
+</body></html>
